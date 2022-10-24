@@ -44,11 +44,11 @@ img{
     }
  
 .box1{
-    font-size: 14px;
+    font-size: 17px;
     margin-left: 0px;
     margin-right: 550px;
     width: 555px;
-    height: 201px;
+    height: 301px;
     background-color: rgb(31, 31, 31);
     position: relative;
     
@@ -57,26 +57,26 @@ img{
 }
 
 .box2{
-    top: -220px;
-    font-size: 14px;
+    top: -320px;
+    font-size: 18px;
   
     margin-left: 50%;
     margin-right: 0px;
     width: 555px;
-    height: 58px;
+    height: 85px;
     background-color: rgb(31, 31, 31);
     position: relative;
 
 
 }
 .box3{
-    top: -230px;
-    font-size: 14px;
+    top: -420px;
+    font-size: 18px;
     float: left;
     margin-left: 50%;
     margin-right: 0px;
     width: 555px;
-    height: 90px;
+    height: 130px;
     background-color: rgb(31, 31, 31);
     position: relative;
 
@@ -86,11 +86,12 @@ img{
 .boutonr{
 
 
-    height: 134px;
-    width: 150px;
+    height: 200px;
+  margin-top: -2850px;
+    width: 450px;
     font-size: 25px;
    font-family: fantasy;
-   margin-left: 50%;
+   margin-left: 35%;
     background: radial-gradient(rgb(115, 3, 3), rgb(37, 26, 14));
 
 
@@ -100,4 +101,5 @@ h1{
 margin-left: 35%;
 font-size: 40px;
 font-family: fantasy;
+
 }
