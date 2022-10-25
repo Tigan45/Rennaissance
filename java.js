@@ -6,4 +6,7 @@ function afficher_div() {
     } else {
       div.style.display = "none";
     }
+    var nom= document.getElementById('voir plus').innerHTML = "voir moins";
+    alert (nom);
   }
+  

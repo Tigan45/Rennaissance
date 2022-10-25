@@ -43,6 +43,8 @@
                 <div>
 
 <h4>Images:</h4>
+
+
 <div></div>
 <img class="imagesp"  id="imgs"  src="img/logo-rns.jpeg" alt="image">
 <img class="imagesp"   id="imgs" src="img/image/IMG2.jpg" alt="image">
@@ -59,12 +61,23 @@
                       var div = document.getElementById("voir plus");
                       if (div.style.display === "none") {
                         div.style.display = "block";
+                        document.getElementById('vp').value= "Voir moins";
+                        
                       } else {
                         div.style.display = "none";
+                        document.getElementById('vp').value= "Voir Plus";
                       }
+                      
+                      
+                      
                     }
                     </script>
-                     <button class="vp" onclick="afficher_div()">voir plus</button>
+                     
+                     <input class="vp" id="vp" type="button" value="voir plus" onClick="afficher_div()"/>
 
+
+<h4>SpoiL:</h4>
+
+<h6>En attente...</h6>
 </body>
 </html>

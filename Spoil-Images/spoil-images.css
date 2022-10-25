@@ -43,6 +43,7 @@ margin-top: 170px;
 
 h4{
     margin-top: 22%;
+    font-style: italic;
 }
 .images7{
     height: 87px;
@@ -53,6 +54,8 @@ width: 150px;
     height: 45px;
     width: 85px;
 }
-
+h6{
+    margin-left: 20%;
+}
 
 }
