@@ -129,5 +129,24 @@ font-family: fantasy;
     img{
         height: 50%;
     }
-    
+     .box1{
+        width: 45%;
+        font-size: 70%;
+        
+     }
+     .box2{
+        width: 50%;
+        font-size: 75%;
+     }
+     .box3{
+        width: 50%;
+        font-size: 70%;
+        margin-top: 50px;
+
+     }
+     .boutonr{
+        margin-top: -100px;
+        width: 50%;
+        height: 50%;
+     }
   }
