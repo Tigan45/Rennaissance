@@ -21,7 +21,7 @@ background: radial-gradient(rgb(115, 3, 3), rgb(37, 26, 14));
 
 }
 .texte{
-top: -850px;
+margin-top: 155px;
 font-size: 13px;
 text-align: center;
 background: linear-gradient(blue, pink);
@@ -70,6 +70,9 @@ margin: 10px;
     }
     img{
         height: 50%;
+    }
+    .texte{
+        margin-top: 75px;
     }
     
   }
