@@ -50,13 +50,16 @@ margin: 10px;
     .boxe{
 
         width: 13%;
+        margin: 5%;
     }
     
     .bouton1{
 
         width: 100%;
+        
     }
     .boutons{
+        margin: 5%;
 
         width: 13%;
         font-size: 50%;
