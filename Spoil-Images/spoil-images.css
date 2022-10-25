@@ -10,6 +10,7 @@ width: 350px;
 
 }
 
+
 h4{
 font-size: 180%;
 font-family: fantasy;
@@ -39,7 +40,15 @@ margin-top: 170px;
 h4{
     margin-top: 22%;
 }
-
+.images7{
+    height: 650px;
+width: 650px;
+}
+.vp{
+    margin-left: 40%;
+    height: 45px;
+    width: 55px;
+}
 
 
 }
