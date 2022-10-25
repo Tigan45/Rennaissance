@@ -124,5 +124,7 @@ font-family: fantasy;
         width: 18%;
         font-size: 50%;
     }
-    
+    img{
+        height: 50%;
+    }
   }
