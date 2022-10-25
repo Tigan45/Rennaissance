@@ -103,3 +103,26 @@ font-size: 40px;
 font-family: fantasy;
 
 }
+
+@media screen and (max-width: 1400px) {
+    .boxe{
+
+        width: 18%;
+        
+        margin: 1%;
+    }
+    
+    .bouton1{
+
+        width: 100%;
+        
+    }
+    .boutons{
+        margin: 1%;
+       
+
+        width: 18%;
+        font-size: 50%;
+    }
+    
+  }
