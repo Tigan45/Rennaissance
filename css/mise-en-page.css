@@ -49,16 +49,16 @@ margin: 10px;
 @media screen and (max-width: 1400px) {
     .boxe{
 
-        width: 10%;
+        width: 20%;
     }
     
     .bouton1{
 
-        width: 120%;
+        width: 100%;
     }
     .boutons{
 
-        width: 10%;
+        width: 20%;
         font-size: 50%;
     }
     
