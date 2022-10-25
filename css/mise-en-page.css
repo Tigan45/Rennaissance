@@ -44,3 +44,22 @@ margin: 10px;
    float: left;
     background: radial-gradient(rgb(115, 3, 3), rgb(37, 26, 14));
 }
+
+
+@media screen and (max-width: 1400px) {
+    .boxe{
+
+        width: 10%;
+    }
+    
+    .bouton1{
+
+        width: 120%;
+    }
+    .boutons{
+
+        width: 10%;
+        font-size: 50%;
+    }
+    
+  }
