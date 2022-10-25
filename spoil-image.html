@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Spoil-Images/spoil-images.css">
     <link rel="stylesheet" href="css/mise-en-page.css">
+    <link rel="" href="java.js">
     <title>Spoil Images</title>
 </head>
 <body>
@@ -42,19 +43,28 @@
                 <div>
 
 <h4>Images:</h4>
-<img class="imagesp"    src="img/logo-rns.jpeg" alt="image">
-<img class="imagesp"    src="img/image/img1.png" alt="image">
-<img class="imagesp"    src="img/image/IMG2.jpg" alt="image">
-<img class="imagesp"    src="img/image/img3.png" alt="image">
-<img class="imagesp"    src="img/image/img4.png" alt="image">
+<div></div>
+<img class="imagesp"  id="imgs"  src="img/logo-rns.jpeg" alt="image">
+<img class="imagesp"   id="imgs" src="img/image/IMG2.jpg" alt="image">
+<img class="imagesp"   id="imgs" src="img/image/img1.png" alt="image">
+</div>
+            
 
-
-
+                <div id="voir plus" style="display:none;">
+                    <img class="imagesp" id="voir plus"   src="img/image/img3.png" alt="image">
+                    <img class="imagesp"  id="voir plus"  src="img/image/img4.png" alt="image">
                 </div>
-
-
-
-
+                <script>
+                    function afficher_div() {
+                      var div = document.getElementById("voir plus");
+                      if (div.style.display === "none") {
+                        div.style.display = "block";
+                      } else {
+                        div.style.display = "none";
+                      }
+                    }
+                    </script>
+                     <button class="vp" onclick="afficher_div()">voir plus</button>
 
 </body>
 </html>
